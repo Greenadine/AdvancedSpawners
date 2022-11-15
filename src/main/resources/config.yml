@@ -1,0 +1,112 @@
+#############################################################
+# +-------------------------------------------------------+ #
+# |         Advanced Spawners Configuration File          | #
+# +---------------------Version 0.6-----------------------+ #
+#############################################################
+
+# Here you can configure all the settings of the plugin.
+# Would you ever encounter that this configuration file is giving errors, please check the following things:
+#   - No tabs are present: YAML only allows spaces (when only using Notepad++, this issue will never occur)
+#   - Indents are correct: YAML hierarchy is based entirely on indentation
+#   - You have "escaped" all apostrophes in your text: If you want to write "don't", for example, write "don''t" instead (note the doubled apostrophe)
+#   - Text with symbols is enclosed in single or double quotation marks
+
+# For any questions, troubleshooting or issue reporting, go to the plugin's BukkitDev page, at http://bit.ly/AdvancedSpawners
+
+############################################################
+# +------------------------------------------------------+ #
+# |                 General Configuration                | #
+# +------------------------------------------------------+ #
+############################################################
+
+# Enable debug logging.
+debug: false
+
+# Enable or disable plugin data collection.
+metrics: true
+
+# Allow upgrading spawners
+upgrade-spawners: true
+
+# Use the server's economy to pay for upgrades instead of XP levels.
+# NOTE: Enabling this requires Vault.
+use-economy: false
+
+# Allow players to mine mob spawners with any pickaxe.
+mine-spawners: true
+
+# Allows mining mob spawners only with pickaxes with the 'Silk Touch' enchantment
+with-silk-touch: true
+
+# Warn players when they're trying to mine a mob spawner without Silk Touch.
+# NOTE: Requires 'with-silk-touch' to be enabled.
+silk-touch-warn: true
+
+# The radius (in blocks) in which a player has to be within a spawner for the effect of that spawner to play.
+effect-range-radius: 50
+
+# Play a unique effect when a player upgrades a mob spawner to the maximum level.
+# NOTE: Enabling this requires HolographicDisplays.
+play-max-level-effect: false
+
+# Allow players to change the spawned type of a mob spawner by right-clicking it while holding mob spawn eggs.
+egg-change-type: true
+
+# Change the amount required amount of mob spawn eggs for changing the spawned type of a mob spawner
+# by right-clicking with a mob spawn egg.
+eggs-change-type-amount: 5
+
+############################################################
+# +------------------------------------------------------+ #
+# |              Spawner Menu Configuration              | #
+# +------------------------------------------------------+ #
+############################################################
+
+# Enable sound effects in the spawner menu.
+menu-sound-effects: true
+
+# Allow players to change the spawned type of a mob spawner through the spawner menu.
+menu-change-type: true
+
+# Configure the menu
+menu:
+    main:
+        header: 'Spawner Menu'
+
+############################################################
+# +------------------------------------------------------+ #
+# |                 Levels Configuration                 | #
+# +------------------------------------------------------+ #
+############################################################
+
+level:
+    '0':
+        cost: 0
+        minSpawnDelay: 500
+        maxSpawnDelay: 1000
+        effect: none
+    '1':
+        cost: 0
+        minSpawnDelay: 500
+        maxSpawnDelay: 1000
+        effect: none
+    '2':
+        cost: 0
+        minSpawnDelay: 500
+        maxSpawnDelay: 1000
+        effect: none
+    '3':
+        cost: 0
+        minSpawnDelay: 500
+        maxSpawnDelay: 1000
+        effect: none
+    '4':
+        cost: 0
+        minSpawnDelay: 500
+        maxSpawnDelay: 1000
+        effect: none
+    '5':
+        cost: 0
+        minSpawnDelay: 500
+        maxSpawnDelay: 1000
+        effect: none

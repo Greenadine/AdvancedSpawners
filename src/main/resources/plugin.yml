@@ -3,6 +3,7 @@ version: '${version}'
 main: nl.greenadine.advancedspawners.AdvancedSpawners
 api-version: 1.19
 prefix: AS
+depend: [ Vault ]
 softdepend: [ HolograhpicDisplays ]
 authors: [ Greenadine ]
 description: Adds upgradable spawners with various customization options.
